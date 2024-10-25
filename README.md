@@ -78,12 +78,11 @@ print("This is my webserver")
 server_address =('',8000)
 httpd = HTTPServer(server_address,MyServer)
 httpd.serve_forever()
-```
- OUTPUT:
- Screenshot 2024-10-25 183829.png
- Screenshot 2024-10-25 185136.png
+``` 
+## OUTPUT:
 
-
+ c:\Users\Dinesh S\Pictures\Screenshots\Screenshot 2024-10-25 183829.png
+ c:\Users\Dinesh S\Pictures\Screenshots\Screenshot 2024-10-25 185136.png
 
 ## RESULT:
 The program for implementing simple webserver is executed successfully.
