@@ -21,7 +21,7 @@ Serving the HTML pages.
 Testing the webserver.
 
 ## PROGRAM:
-```
+'''
 from http.server import HTTPServer,BaseHTTPRequestHandler
 
 content='''
@@ -58,13 +58,9 @@ content='''
         <th>No pen or touch input is available for this display</th>
      </tr>
      
- 
- 
-
 </table>
 </body>
-</html>
-```
+</html>'''
 
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
@@ -78,11 +74,11 @@ print("This is my webserver")
 server_address =('',8000)
 httpd = HTTPServer(server_address,MyServer)
 httpd.serve_forever()
-``` 
-## OUTPUT:
+'''
+## OUTPUT: 
+Screenshot 2024-10-25 185136.png
+Screenshot 2024-10-25 183829.png
 
- c:\Users\Dinesh S\Pictures\Screenshots\Screenshot 2024-10-25 183829.png
- c:\Users\Dinesh S\Pictures\Screenshots\Screenshot 2024-10-25 185136.png
-
+ 
 ## RESULT:
 The program for implementing simple webserver is executed successfully.
